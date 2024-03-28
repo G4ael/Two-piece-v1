@@ -128,3 +128,12 @@ class Obj{
     
         }
     }
+
+    class Text{
+        des_text(text,x,y,cor,font){
+            des.fillStyle = cor
+            des.lineWidth = '5'
+            des.font = font
+            des.fillText(text,x,y)
+        }
+    }
